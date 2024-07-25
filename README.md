@@ -43,7 +43,17 @@ This method checks if the game is over. The game is over if there is a winner or
 
 To use this project, follow the steps below:
 
-1. **Clone the repository:**
+1. **install typescript:**
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   npm install -g typescript
+   npm install @types/node
+2. **Compile the TypeScript file to JavaScript:**
+   ```bash
+   tsc TicTacToe.ts
+3. **Run the compiled JavaScript file:**
+   ```bash
+   node TicTacToe.js
+
+
+
+
